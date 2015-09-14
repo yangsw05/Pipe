@@ -1,0 +1,10 @@
+Git 添加操作添加文件到暂存区。
+
+[jerry@CentOS project]$ git status -s
+?? string
+?? string.c
+
+[jerry@CentOS project]$ git add string.c
+Git是显示文件名前的问号。显然，这些文件不属于Git，Git 不知道该怎么用这些文件。这就是为什么Git是文件名前显示问号。
+
+Jerry 添加文件到存储区域，git的状态命令将显示文件暂存区域。
